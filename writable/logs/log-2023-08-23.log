@@ -1,0 +1,84 @@
+CRITICAL - 2023-08-23 10:53:39 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:39 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(261): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->races()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-23 10:53:39 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:39 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(261): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->races()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-23 10:53:42 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:42 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(261): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->races()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-23 10:53:42 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:42 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(261): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->races()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-23 10:53:43 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:43 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(857): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->category_results('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-23 10:53:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-08-23 10:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 10:53:44 --> Undefined array key "account_type"
+in APPPATH\Views\organizer\includes\sidebar.php on line 6.
+ 1 APPPATH\Views\organizer\includes\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_type"', 'APPPATH\\Views\\organizer\\includes\\sidebar.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\organizer\\includes\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('organizer/includes/sidebar', [], true)
+ 5 APPPATH\Controllers\Organizer.php(857): view('organizer/includes/sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->category_results('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

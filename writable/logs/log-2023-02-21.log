@@ -1,0 +1,851 @@
+INFO - 2023-02-21 13:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 13:12:37 --> Call to undefined function App\Controllers\clean_input()
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 13:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 13:33:12 --> Undefined variable $request
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 13:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 13:33:32 --> Undefined property: App\Controllers\Home::$UserModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$UserModel', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 13:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 13:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 14:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 14:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 15:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 15:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 15:20:39 --> Undefined variable $email
+in APPPATH\Controllers\Home.php on line 90.
+ 1 APPPATH\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Controllers\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 15:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 15:20:50 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 102.
+ 1 APPPATH\Controllers\Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 15:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 15:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:22:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:22:41 --> 220 smtp.gmail.com ESMTP lf19-20020a170906ae5300b008da6a37de1bsm1921072ejb.10 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.137.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials lf19-20020a170906ae5300b008da6a37de1bsm1921072ejb.10 - gsmtp
+
+ERROR - 2023-02-21 15:22:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:22:41 --> 220 smtp.gmail.com ESMTP lf19-20020a170906ae5300b008da6a37de1bsm1921072ejb.10 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.137.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials lf19-20020a170906ae5300b008da6a37de1bsm1921072ejb.10 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials lf19-20020a170906ae5300b008da6a37de1bsm1921072ejb.10 - gsmtp
+
+INFO - 2023-02-21 15:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:27:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:27:38 --> 220 smtp.gmail.com ESMTP n17-20020a50c211000000b004ad7bfad182sm3633824edf.6 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020a50c211000000b004ad7bfad182sm3633824edf.6 - gsmtp
+
+ERROR - 2023-02-21 15:27:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:27:39 --> 220 smtp.gmail.com ESMTP n17-20020a50c211000000b004ad7bfad182sm3633824edf.6 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020a50c211000000b004ad7bfad182sm3633824edf.6 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020a50c211000000b004ad7bfad182sm3633824edf.6 - gsmtp
+
+INFO - 2023-02-21 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:30:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:30:43 --> 220 smtp.gmail.com ESMTP u23-20020a50d517000000b004acdf09027esm2550314edi.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23-20020a50d517000000b004acdf09027esm2550314edi.4 - gsmtp
+
+ERROR - 2023-02-21 15:30:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:30:44 --> 220 smtp.gmail.com ESMTP u23-20020a50d517000000b004acdf09027esm2550314edi.4 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23-20020a50d517000000b004acdf09027esm2550314edi.4 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23-20020a50d517000000b004acdf09027esm2550314edi.4 - gsmtp
+
+INFO - 2023-02-21 15:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:37:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:37:36 --> 220 smtp.gmail.com ESMTP 10-20020a170906328a00b008b147e4204dsm7262972ejw.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 10-20020a170906328a00b008b147e4204dsm7262972ejw.32 - gsmtp
+
+ERROR - 2023-02-21 15:37:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:37:37 --> 220 smtp.gmail.com ESMTP 10-20020a170906328a00b008b147e4204dsm7262972ejw.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 10-20020a170906328a00b008b147e4204dsm7262972ejw.32 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 10-20020a170906328a00b008b147e4204dsm7262972ejw.32 - gsmtp
+
+INFO - 2023-02-21 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:38:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:38:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:38:57 --> 
+ERROR - 2023-02-21 15:38:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:38:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:38:57 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:39:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:39:09 --> 220 smtp.gmail.com ESMTP i14-20020a50d74e000000b004acbde59e64sm2851050edj.8 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i14-20020a50d74e000000b004acbde59e64sm2851050edj.8 - gsmtp
+
+ERROR - 2023-02-21 15:39:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:39:10 --> 220 smtp.gmail.com ESMTP i14-20020a50d74e000000b004acbde59e64sm2851050edj.8 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [182.191.128.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i14-20020a50d74e000000b004acbde59e64sm2851050edj.8 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i14-20020a50d74e000000b004acbde59e64sm2851050edj.8 - gsmtp
+
+INFO - 2023-02-21 15:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:42:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:42:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:42:31 --> 
+ERROR - 2023-02-21 15:42:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:42:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:42:33 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:46:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://mail.mok....', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:46:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:46:05 --> 
+ERROR - 2023-02-21 15:46:06 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://mail.mok....', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:46:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:46:06 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:47:48 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:47:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:47:48 --> 
+ERROR - 2023-02-21 15:47:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:47:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:47:50 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:48:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:48:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:48:12 --> 
+ERROR - 2023-02-21 15:48:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:48:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:48:14 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:49:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://ssl://smt...', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:49:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:49:02 --> 
+ERROR - 2023-02-21 15:49:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://ssl://smt...', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:49:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:49:05 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:49:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:49:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:49:35 --> 
+ERROR - 2023-02-21 15:49:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:49:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:49:35 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:53:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://sandbox.s...', 2525, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:53:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:53:09 --> 
+ERROR - 2023-02-21 15:53:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://sandbox.s...', 2525, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:53:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:53:10 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:54:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://sandbox.s...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:54:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:54:42 --> 
+ERROR - 2023-02-21 15:54:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://sandbox.s...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:54:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:54:42 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 15:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 15:58:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://sandbox.s...', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(96): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:58:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:58:28 --> 
+ERROR - 2023-02-21 15:58:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://sandbox.s...', 587, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 15:58:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 15:58:29 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 16:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:00:18 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:00:18 --> 
+ERROR - 2023-02-21 16:00:20 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:00:20 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+INFO - 2023-02-21 16:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:00:49 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:00:49 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-02-21 16:00:49 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:00:49 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+INFO - 2023-02-21 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:04:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://sandbox.s...', 2525, NULL, NULL, 60)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:04:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:04:55 --> 
+INFO - 2023-02-21 16:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:06:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:06:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:06:02 --> 
+INFO - 2023-02-21 16:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:06:43 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:06:43 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.
+INFO - 2023-02-21 16:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:06:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:06:56 --> 220 smtp.googlemail.com ESMTP r10-20020a1709063d6a00b00882f9130eafsm7316552ejf.26 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [116.71.173.144]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r10-20020a1709063d6a00b00882f9130eafsm7316552ejf.26 - gsmtp
+
+INFO - 2023-02-21 16:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:08:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:08:04 --> 220 smtp.googlemail.com ESMTP k23-20020a508ad7000000b004af5001c7ecsm1351001edk.12 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [116.71.173.144]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k23-20020a508ad7000000b004af5001c7ecsm1351001edk.12 - gsmtp
+
+INFO - 2023-02-21 16:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:09:47 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://mail.mok....', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:09:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:09:47 --> 
+INFO - 2023-02-21 16:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:10:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://mail.mok....', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:10:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:10:29 --> 
+INFO - 2023-02-21 16:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:10:49 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): Peer certificate CN=`uhostex.com' did not match expected CN=`mail.mok.u88.site' in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1886
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'D:\\Webdev\\Fiver...', 1886)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1886): stream_socket_enable_crypto(Resource id #126, true, 57)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:10:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:10:49 --> 220 20469-34852.bacloud.info ESMTP Exim 4.96-58-g4e9ed49f8 Tue, 21 Feb 2023 18:10:48 +0200
+
+hello: 250-20469-34852.bacloud.info Hello localhost [116.71.188.168]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+INFO - 2023-02-21 16:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:11:23 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('ssl://mail.mok....', 587, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:11:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:11:23 --> 
+INFO - 2023-02-21 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 16:12:32 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\Webdev\\Fiver...', 1868)
+#1 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1868): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\Webdev\Fiverr\erroeerrorr\race\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\Webdev\Fiverr\erroeerrorr\race\app\Controllers\Home.php(97): CodeIgniter\Email\Email->send()
+#6 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(934): App\Controllers\Home->test()
+#7 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\Fiverr\erroeerrorr\race\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\Fiverr\erroeerrorr\race\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\Fiverr\erroeerrorr\race\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\Fiver...')
+#11 {main}
+ERROR - 2023-02-21 16:12:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-21 16:12:32 --> 
+INFO - 2023-02-21 16:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 16:21:24 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:29:27 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 APPPATH\Controllers\Home.php(11): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:29:47 --> require(D:\Webdev\Fiverr\erroeerrorr\race\app\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\Webdev\\Fiverr\\erroeerrorr\\race\\app\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 APPPATH\Controllers\Home.php(11): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:31:03 --> require(D:\Webdev\Fiverr\erroeerrorr\race\public\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\Webdev\\Fiverr\\erroeerrorr\\race\\public\\vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 APPPATH\Controllers\Home.php(11): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:31:15 --> Undefined constant "App\Controllers\BASEPATH"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:31:35 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'APPPATH\\Controllers\\Home.php', 11)
+ 2 APPPATH\Controllers\Home.php(11): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 16:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 16:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,672 @@
+CRITICAL - 2023-05-22 08:16:09 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:16:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 08:16:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'edga_race', 3306, '', 0)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#4 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#7 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#9 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#3 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#8 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#9 {main}
+CRITICAL - 2023-05-22 08:16:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_details`.`id`, `event_details`.`event_id`, `event_details`.`user_id`, `event_details`.`track`, `event_details`.`start`, `event_details`.`end`, `users`.`name`, `users`.`surname`, `users`.`machine`, `users`.`size_of_wheel`
+FROM `event_details`
+JOIN `users` ON `event_details`.`user_id` = `users`.`id`
+WHERE `event_details`.`start` IS NOT NULL
+AND `event_details`.`start` != :event_details.start:
+AND `event_details`.`end` IS NOT NULL
+AND `event_details`.`end` != :event_details.end:', [...], false)
+ 3 APPPATH\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 08:16:16 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:16 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 08:16:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'edga_race', 3306, '', 0)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#4 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#7 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#9 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#3 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#8 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#9 {main}
+CRITICAL - 2023-05-22 08:16:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_details`.`id`, `event_details`.`event_id`, `event_details`.`user_id`, `event_details`.`track`, `event_details`.`start`, `event_details`.`end`, `users`.`name`, `users`.`surname`, `users`.`machine`, `users`.`size_of_wheel`
+FROM `event_details`
+JOIN `users` ON `event_details`.`user_id` = `users`.`id`
+WHERE `event_details`.`start` IS NOT NULL
+AND `event_details`.`start` != :event_details.start:
+AND `event_details`.`end` IS NOT NULL
+AND `event_details`.`end` != :event_details.end:', [...], false)
+ 3 APPPATH\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 08:16:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:16:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 08:16:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'edga_race', 3306, '', 0)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#4 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#7 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#9 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_d...', Array, false)
+#3 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#8 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#9 {main}
+CRITICAL - 2023-05-22 08:16:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `event_details`.`id`, `event_details`.`event_id`, `event_details`.`user_id`, `event_details`.`track`, `event_details`.`start`, `event_details`.`end`, `users`.`name`, `users`.`surname`, `users`.`machine`, `users`.`size_of_wheel`
+FROM `event_details`
+JOIN `users` ON `event_details`.`user_id` = `users`.`id`
+WHERE `event_details`.`start` IS NOT NULL
+AND `event_details`.`start` != :event_details.start:
+AND `event_details`.`end` IS NOT NULL
+AND `event_details`.`end` != :event_details.end:', [...], false)
+ 3 APPPATH\Controllers\Organizer.php(794): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Organizer->get_event_track_results()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Organizer))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 08:16:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:16:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:26 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:31 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 08:16:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'edga_race', 3306, '', 0)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Webdev\work\erroeerrorr\race 2\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Webdev\work\erroeerrorr\race 2\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Home.php(33): CodeIgniter\BaseModel->first()
+#7 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#8 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#11 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Webdev\work\erroeerrorr\race 2\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Webdev\work\erroeerrorr\race 2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Webdev\work\erroeerrorr\race 2\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Webdev\work\erroeerrorr\race 2\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\Webdev\work\erroeerrorr\race 2\app\Controllers\Home.php(33): CodeIgniter\BaseModel->first()
+#6 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#7 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Webdev\work\erroeerrorr\race 2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Webdev\work\erroeerrorr\race 2\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 D:\Webdev\work\erroeerrorr\race 2\system\Commands\Server\rewrite.php(47): require_once('D:\\Webdev\\work\\...')
+#11 {main}
+CRITICAL - 2023-05-22 08:16:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(33): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 08:16:36 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:42 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:43 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:16:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:45 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:45 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:16:47 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:47 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:48 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:49 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:49 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:50 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:58 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:58 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:58 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:16:59 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 08:17:00 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:00 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:00 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:03 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:05 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:06 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:06 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:09 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:12 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:13 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:14 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:15 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:16 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:17 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:18 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:19 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:21 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:22 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:23 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:24 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:24 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:26 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:27 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:28 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:30 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:31 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:33 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:34 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:35 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:36 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:37 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:38 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:39 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:40 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:41 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:42 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:43 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:45 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:47 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:48 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:49 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:50 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:51 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:53 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:54 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:55 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:56 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:58 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:17:59 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:00 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:03 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:04 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:05 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:06 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:07 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:09 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:12 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:13 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:14 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:15 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:16 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:17 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:18 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:19 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:21 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:22 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:23 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:24 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:26 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:27 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:28 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:18:29 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:19:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:34 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:35 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:36 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:37 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:38 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:39 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:40 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:41 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:42 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:43 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:44 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:45 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:46 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:47 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:48 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:49 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:50 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:51 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:53 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:54 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:55 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:56 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:58 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:20:59 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:00 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:03 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:04 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:05 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:06 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:07 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:09 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:12 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:13 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:14 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:15 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:16 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:17 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:18 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:19 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:21 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:22 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:23 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:24 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:25 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:26 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:27 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:28 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:29 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:30 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:31 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:21:33 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:22:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:23:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:24:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:25:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:26:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:09 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:31 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:31 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:27:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:28:48 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:28:48 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:28:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:28:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:29:10 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:29:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:30:33 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:30:33 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:30:51 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:30:51 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:31:01 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:31:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:31:12 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 08:31:12 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 08:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 09:20:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 09:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 09:20:32 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 09:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 09:20:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 09:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 09:20:52 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 09:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:18 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:19 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:19 --> Undefined array key "id"
+in APPPATH\Controllers\User.php on line 233.
+ 1 APPPATH\Controllers\User.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\User.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 15:31:20 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:20 --> Undefined array key "id"
+in APPPATH\Controllers\User.php on line 233.
+ 1 APPPATH\Controllers\User.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\User.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 15:31:36 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:36 --> Undefined array key "id"
+in APPPATH\Controllers\User.php on line 233.
+ 1 APPPATH\Controllers\User.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\User.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 15:31:36 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:36 --> Undefined array key "id"
+in APPPATH\Controllers\User.php on line 233.
+ 1 APPPATH\Controllers\User.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\User.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-22 15:31:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:31:57 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:32:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 15:32:02 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+CRITICAL - 2023-05-22 15:32:07 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:32:08 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
+INFO - 2023-05-22 15:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 15:32:11 --> Toolbar collector does not exist (Config\Views). Please check $collectors in the app/Config/Toolbar.php file.
